@@ -4,6 +4,7 @@ A modular Python framework for simulating and comparing execution algorithms und
 
 ## Features
 
+- **Interactive Streamlit UI**: Web-based interface for real-time simulation and analysis
 - **Modular Architecture**: Dependency injection design allows easy swapping of components
 - **Reproducible Simulations**: Deterministic results with configurable random seeds
 - **Multiple Strategies**: TWAP market orders, Dutch limit orders, and extensible strategy framework
@@ -35,6 +36,27 @@ python -m src.simulation configs/twap_vs_dutch.yml
 # Generate price path visualizations
 python scripts/generate_visualizations.py
 ```
+
+### Interactive Streamlit UI
+
+**🚀 NEW**: Launch the interactive web interface:
+
+```bash
+# Install with Streamlit dependencies
+pip install -e ".[streamlit]"
+
+# Launch the web interface
+streamlit run streamlit_app/main.py --server.port 8501
+```
+
+**Available Features:**
+- **🏠 Home**: Overview and quick start guide
+- **📈 GBM Price Path Explorer**: Interactive price path generation with volatility controls
+- **🎯 Single Order Execution**: Analyze individual market and Dutch auction orders
+- **📊 Impact Model Explorer**: Compare different market impact models
+- **📁 Path Manager**: Save, organize, and compare price path collections
+
+**Live Demo**: [DCA Simulation on Streamlit Cloud](https://dca-simulation.streamlit.app) *(if deployed)*
 
 ### Example Output
 
