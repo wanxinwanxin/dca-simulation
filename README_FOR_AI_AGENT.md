@@ -496,7 +496,7 @@ python3 -m pip install -e ".[streamlit]"
 # 🆕 NEW: Run Phase 1+ Interactive Streamlit UI with Impact Model Explorer
 python3 -m streamlit run streamlit_app/main.py --server.port 8501
 
-# 🌐 CLOUD DEPLOYMENT: App ready for Streamlit Cloud at https://github.com/Uniswap/dca-simulation.git
+# 🌐 CLOUD DEPLOYMENT: App ready for Streamlit Cloud at https://github.com/wanxinwanxin/dca-simulation.git
 # Simply connect repository to Streamlit Cloud - all configuration files are ready!
 
 # Test core functionality
@@ -526,7 +526,7 @@ pytest  # (Currently no real unit tests)
 
 ### Changes Made:
 - 🚀 **DEPLOYMENT READY**: Successfully pushed complete codebase to GitHub and configured for Streamlit Cloud hosting
-- ✅ **GitHub Repository**: All 169 files with 54,834+ lines committed and pushed to https://github.com/Uniswap/dca-simulation.git
+- ✅ **GitHub Repository**: All 169 files with 54,834+ lines committed and pushed to https://github.com/wanxinwanxin/dca-simulation.git
 - ✅ **Streamlit Cloud Configuration**: Added requirements.txt and .streamlit/config.toml for seamless cloud deployment
 - ✅ **Updated Documentation**: Enhanced README.md with Streamlit UI section and deployment instructions
 - 📦 **Deployment Files Created**:

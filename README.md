@@ -56,7 +56,7 @@ streamlit run streamlit_app/main.py --server.port 8501
 - **📊 Impact Model Explorer**: Compare different market impact models
 - **📁 Path Manager**: Save, organize, and compare price path collections
 
-**Live Demo**: [DCA Simulation on Streamlit Cloud](https://dca-simulation.streamlit.app) *(if deployed)*
+**Live Demo**: [DCA Simulation on Streamlit Cloud](https://wanxinwanxin-dca-simulation.streamlit.app) *(deploy from your repository)*
 
 ### Example Output
 
