@@ -1,0 +1,22 @@
+{
+  "strategy": "TwapMarket",
+  "total_runs": 5,
+  "probe_0_FillTimings_first_fill_time_mean": 0.0,
+  "probe_0_FillTimings_first_fill_time_std": 0.0,
+  "probe_0_FillTimings_last_fill_time_mean": 80.0,
+  "probe_0_FillTimings_last_fill_time_std": 0.0,
+  "probe_0_FillTimings_avg_fill_interval_mean": 20.0,
+  "probe_0_FillTimings_avg_fill_interval_std": 0.0,
+  "probe_0_FillTimings_total_fills_mean": 5.0,
+  "probe_0_FillTimings_total_fills_std": 0.0,
+  "probe_1_FillPrices_avg_fill_price_mean": 83.32642205649738,
+  "probe_1_FillPrices_avg_fill_price_std": 16.444752663369833,
+  "probe_1_FillPrices_min_fill_price_mean": 64.96970895484675,
+  "probe_1_FillPrices_min_fill_price_std": 17.030827146701892,
+  "probe_1_FillPrices_max_fill_price_mean": 108.27049003809016,
+  "probe_1_FillPrices_max_fill_price_std": 11.17991481404941,
+  "probe_1_FillPrices_vwap_mean": 83.32642205649738,
+  "probe_1_FillPrices_vwap_std": 16.44475266336984,
+  "probe_1_FillPrices_total_qty_mean": 50.0,
+  "probe_1_FillPrices_total_qty_std": 0.0
+}

@@ -1,0 +1,18 @@
+{
+  "probe_0_FillTimings": {
+    "first_fill_time": 15.0,
+    "last_fill_time": 23.0,
+    "avg_fill_interval": 2.0,
+    "total_fills": 5
+  },
+  "probe_1_FillPrices": {
+    "avg_fill_price": 95.47256901378759,
+    "min_fill_price": 92.714546735166,
+    "max_fill_price": 98.87428756130895,
+    "vwap": 95.47256901378759,
+    "total_qty": 100.0
+  },
+  "run_id": 0,
+  "strategy": "DutchLimit",
+  "seed": 42
+}

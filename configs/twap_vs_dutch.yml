@@ -1,0 +1,50 @@
+run_name: twap_dutch_sample
+horizon: 300  # 5 minutes in seconds
+random_seed: 42
+target_qty: 100.0
+
+price_process:
+  name: GBM
+  params: 
+    mu: 0.00
+    sigma: 0.02
+    dt: 1.0
+    s0: 100.0
+
+liquidity:
+  name: ConstSpread
+  params: 
+    spread: 0.5
+
+impact:
+  name: LinearImpact
+  params: 
+    gamma: 0.0001
+
+gas:
+  name: Evm1559
+  params: 
+    base_fee: 0.000000005
+    tip: 0.000000002
+
+strategies:
+  - algo: TwapMarket
+    params: 
+      total_qty: 100.0
+      n_slices: 10
+      side: BUY
+      interval: 30.0
+  - algo: DutchLimit
+    params: 
+      total_qty: 100.0
+      slice_qty: 20.0
+      side: BUY
+      starting_limit_price: 99.0  # p_0: start 1.0 below mid for buy
+      decay_rate: 0.05             # d: price increases 0.05 per second for buy
+      order_duration: 45.0         # T: 45 second expiry
+
+probes:
+  - FillTimings
+  - FillPrices
+
+paths: 1  # Number of simulation runs 

@@ -1,0 +1,18 @@
+{
+  "probe_0_FillTimings": {
+    "first_fill_time": 0.0,
+    "last_fill_time": 270.0,
+    "avg_fill_interval": 30.0,
+    "total_fills": 10
+  },
+  "probe_1_FillPrices": {
+    "avg_fill_price": 87.39877437158812,
+    "min_fill_price": 76.17341898073107,
+    "max_fill_price": 100.001,
+    "vwap": 87.39877437158812,
+    "total_qty": 100.0
+  },
+  "run_id": 0,
+  "strategy": "TwapMarket",
+  "seed": 42
+}

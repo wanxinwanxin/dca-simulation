@@ -1,0 +1,22 @@
+{
+  "strategy": "DutchLimit",
+  "total_runs": 1,
+  "probe_0_FillTimings_first_fill_time_mean": 15.0,
+  "probe_0_FillTimings_first_fill_time_std": 0.0,
+  "probe_0_FillTimings_last_fill_time_mean": 23.0,
+  "probe_0_FillTimings_last_fill_time_std": 0.0,
+  "probe_0_FillTimings_avg_fill_interval_mean": 2.0,
+  "probe_0_FillTimings_avg_fill_interval_std": 0.0,
+  "probe_0_FillTimings_total_fills_mean": 5.0,
+  "probe_0_FillTimings_total_fills_std": 0.0,
+  "probe_1_FillPrices_avg_fill_price_mean": 95.47256901378759,
+  "probe_1_FillPrices_avg_fill_price_std": 0.0,
+  "probe_1_FillPrices_min_fill_price_mean": 92.714546735166,
+  "probe_1_FillPrices_min_fill_price_std": 0.0,
+  "probe_1_FillPrices_max_fill_price_mean": 98.87428756130895,
+  "probe_1_FillPrices_max_fill_price_std": 0.0,
+  "probe_1_FillPrices_vwap_mean": 95.47256901378759,
+  "probe_1_FillPrices_vwap_std": 0.0,
+  "probe_1_FillPrices_total_qty_mean": 100.0,
+  "probe_1_FillPrices_total_qty_std": 0.0
+}

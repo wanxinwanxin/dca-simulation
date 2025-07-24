@@ -1,0 +1,42 @@
+run_name: multi_path_twap
+horizon: 120  # 2 minutes
+random_seed: 42
+target_qty: 50.0
+
+price_process:
+  name: GBM
+  params: 
+    mu: 0.00
+    sigma: 0.05  # Higher volatility for variation
+    dt: 1.0
+    s0: 100.0
+
+liquidity:
+  name: ConstSpread
+  params: 
+    spread: 0.2
+
+impact:
+  name: LinearImpact
+  params: 
+    gamma: 0.0001
+
+gas:
+  name: Evm1559
+  params: 
+    base_fee: 0.000000005
+    tip: 0.000000002
+
+strategies:
+  - algo: TwapMarket
+    params: 
+      total_qty: 50.0
+      n_slices: 5
+      side: BUY
+      interval: 20.0
+
+probes:
+  - FillTimings
+  - FillPrices
+
+paths: 5  # Run 5 simulation paths for statistical analysis 
